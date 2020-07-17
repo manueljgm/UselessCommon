@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1A04E86524C1D82700081D46 /* UselessCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A04E86324C1D82700081D46 /* UselessCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A04E87824C1D87C00081D46 /* DelayedWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E86C24C1D87C00081D46 /* DelayedWork.swift */; };
+		1A04E87924C1D87C00081D46 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E86D24C1D87C00081D46 /* UIImage.swift */; };
+		1A04E87A24C1D87C00081D46 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E86E24C1D87C00081D46 /* XMLParser.swift */; };
+		1A04E87B24C1D87C00081D46 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E86F24C1D87C00081D46 /* Updateable.swift */; };
+		1A04E87C24C1D87C00081D46 /* Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87024C1D87C00081D46 /* Clamp.swift */; };
+		1A04E87D24C1D87C00081D46 /* CwlMutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87124C1D87C00081D46 /* CwlMutex.swift */; };
+		1A04E87E24C1D87C00081D46 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87224C1D87C00081D46 /* Dictionary.swift */; };
+		1A04E87F24C1D87C00081D46 /* SKTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87324C1D87C00081D46 /* SKTexture.swift */; };
+		1A04E88124C1D87C00081D46 /* SKTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87524C1D87C00081D46 /* SKTextureAtlas.swift */; };
+		1A04E88224C1D87C00081D46 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87624C1D87C00081D46 /* String.swift */; };
+		1A04E88424C1D93300081D46 /* UselessCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E88324C1D93300081D46 /* UselessCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A04E86024C1D82700081D46 /* UselessCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UselessCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A04E86324C1D82700081D46 /* UselessCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UselessCommon.h; sourceTree = "<group>"; };
 		1A04E86424C1D82700081D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A04E86C24C1D87C00081D46 /* DelayedWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayedWork.swift; sourceTree = "<group>"; };
+		1A04E86D24C1D87C00081D46 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		1A04E86E24C1D87C00081D46 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		1A04E86F24C1D87C00081D46 /* Updateable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
+		1A04E87024C1D87C00081D46 /* Clamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clamp.swift; sourceTree = "<group>"; };
+		1A04E87124C1D87C00081D46 /* CwlMutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlMutex.swift; sourceTree = "<group>"; };
+		1A04E87224C1D87C00081D46 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		1A04E87324C1D87C00081D46 /* SKTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTexture.swift; sourceTree = "<group>"; };
+		1A04E87524C1D87C00081D46 /* SKTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextureAtlas.swift; sourceTree = "<group>"; };
+		1A04E87624C1D87C00081D46 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1A04E88324C1D93300081D46 /* UselessCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UselessCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +70,17 @@
 			children = (
 				1A04E86324C1D82700081D46 /* UselessCommon.h */,
 				1A04E86424C1D82700081D46 /* Info.plist */,
+				1A04E88324C1D93300081D46 /* UselessCommon.swift */,
+				1A04E87024C1D87C00081D46 /* Clamp.swift */,
+				1A04E87124C1D87C00081D46 /* CwlMutex.swift */,
+				1A04E86C24C1D87C00081D46 /* DelayedWork.swift */,
+				1A04E87224C1D87C00081D46 /* Dictionary.swift */,
+				1A04E87324C1D87C00081D46 /* SKTexture.swift */,
+				1A04E87524C1D87C00081D46 /* SKTextureAtlas.swift */,
+				1A04E87624C1D87C00081D46 /* String.swift */,
+				1A04E86D24C1D87C00081D46 /* UIImage.swift */,
+				1A04E86F24C1D87C00081D46 /* Updateable.swift */,
+				1A04E86E24C1D87C00081D46 /* XMLParser.swift */,
 			);
 			path = UselessCommon;
 			sourceTree = "<group>";
@@ -95,6 +128,7 @@
 				TargetAttributes = {
 					1A04E85F24C1D82700081D46 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -131,6 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A04E87824C1D87C00081D46 /* DelayedWork.swift in Sources */,
+				1A04E88224C1D87C00081D46 /* String.swift in Sources */,
+				1A04E87F24C1D87C00081D46 /* SKTexture.swift in Sources */,
+				1A04E87C24C1D87C00081D46 /* Clamp.swift in Sources */,
+				1A04E88124C1D87C00081D46 /* SKTextureAtlas.swift in Sources */,
+				1A04E87924C1D87C00081D46 /* UIImage.swift in Sources */,
+				1A04E88424C1D93300081D46 /* UselessCommon.swift in Sources */,
+				1A04E87B24C1D87C00081D46 /* Updateable.swift in Sources */,
+				1A04E87E24C1D87C00081D46 /* Dictionary.swift in Sources */,
+				1A04E87D24C1D87C00081D46 /* CwlMutex.swift in Sources */,
+				1A04E87A24C1D87C00081D46 /* XMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -260,6 +305,7 @@
 		1A04E86924C1D82700081D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W8DNYX3CN5;
@@ -276,6 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uselessrobot.UselessCommon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +331,7 @@
 		1A04E86A24C1D82700081D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W8DNYX3CN5;
