@@ -17,11 +17,6 @@ public enum SKTextureSplitOrder {
 
 extension SKTexture {
     
-    public convenience init(imageNamed name: String, filteringMode: SKTextureFilteringMode) {
-        self.init(imageNamed: name)
-        self.filteringMode = filteringMode
-    }
-    
     public func split(bySize splitSize: CGSize, splitOrder: SKTextureSplitOrder = .rightDown) -> [(texture: SKTexture, offset: CGPoint, index: Int)] {
         let textureSize = self.size()
         guard splitSize.width <= textureSize.width && splitSize.height <= textureSize.height else {
@@ -69,13 +64,12 @@ extension SKTexture {
         return partials
     }
     
-    public class func split(imageNamed name: String, bySize size: CGSize, splitOrder: SKTextureSplitOrder = .rightDown, filteringMode: SKTextureFilteringMode = .nearest) -> [(texture: SKTexture, offset: CGPoint, index: Int)] {
+    public class func split(imageNamed name: String, bySize size: CGSize, splitOrder: SKTextureSplitOrder = .rightDown) -> [(texture: SKTexture, offset: CGPoint, index: Int)] {
         guard let sourceImage = UIImage(named: name) else {
             return []
         }
         
         let sourceTexture = SKTexture(image: sourceImage)
-        sourceTexture.filteringMode = filteringMode
         return sourceTexture.split(bySize: size, splitOrder: splitOrder)
     }
     
