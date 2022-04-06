@@ -18,6 +18,7 @@
 		1A04E88124C1D87C00081D46 /* SKTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87524C1D87C00081D46 /* SKTextureAtlas.swift */; };
 		1A04E88224C1D87C00081D46 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E87624C1D87C00081D46 /* String.swift */; };
 		1A04E88424C1D93300081D46 /* UselessCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04E88324C1D93300081D46 /* UselessCommon.swift */; };
+		1AF4BD4E27F9F17F009CFE82 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4BD4D27F9F17F009CFE82 /* Float.swift */; };
 		1AFB04DA25F0802C00FDD33D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB04D925F0802C00FDD33D /* Heap.swift */; };
 		1AFB04DD25F0811A00FDD33D /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB04DC25F0811A00FDD33D /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		1A04E87524C1D87C00081D46 /* SKTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextureAtlas.swift; sourceTree = "<group>"; };
 		1A04E87624C1D87C00081D46 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		1A04E88324C1D93300081D46 /* UselessCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UselessCommon.swift; sourceTree = "<group>"; };
+		1AF4BD4D27F9F17F009CFE82 /* Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
 		1AFB04D925F0802C00FDD33D /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		1AFB04DC25F0811A00FDD33D /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				1A04E87124C1D87C00081D46 /* CwlMutex.swift */,
 				1A04E86C24C1D87C00081D46 /* DelayedWork.swift */,
 				1A04E87224C1D87C00081D46 /* Dictionary.swift */,
+				1AF4BD4D27F9F17F009CFE82 /* Float.swift */,
 				1AFB04D925F0802C00FDD33D /* Heap.swift */,
 				1AFB04DC25F0811A00FDD33D /* PriorityQueue.swift */,
 				1A04E87324C1D87C00081D46 /* SKTexture.swift */,
@@ -171,6 +174,7 @@
 				1A04E87824C1D87C00081D46 /* DelayedWork.swift in Sources */,
 				1A04E88224C1D87C00081D46 /* String.swift in Sources */,
 				1A04E87F24C1D87C00081D46 /* SKTexture.swift in Sources */,
+				1AF4BD4E27F9F17F009CFE82 /* Float.swift in Sources */,
 				1A04E87C24C1D87C00081D46 /* Clamp.swift in Sources */,
 				1A04E88124C1D87C00081D46 /* SKTextureAtlas.swift in Sources */,
 				1AFB04DD25F0811A00FDD33D /* PriorityQueue.swift in Sources */,
