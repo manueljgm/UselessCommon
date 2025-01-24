@@ -7,6 +7,8 @@
 //
 
 extension String {
+
+    public var localizable: String { NSLocalizedString(self, comment: "") }
     
     public func equalsPattern(_ regexPattern: String) -> Bool {
         do {
