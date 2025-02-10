@@ -24,4 +24,11 @@ extension Color {
     public func adaptedTextColor() -> Color {
         return isBright() ? .black : .white
     }
+    
+    public static func pastelColor() -> Color {
+        let hue = Double.random(in: 0...1)
+        let saturation = Double.random(in: 0.3...0.4)
+        let brightness = Double.random(in: 0.9...1.0)
+        return Color(hue: hue, saturation: saturation, brightness: brightness)
+    }
 }

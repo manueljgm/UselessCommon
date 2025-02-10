@@ -6,6 +6,8 @@
 //  Copyright © 2016 Useless Robot. All rights reserved.
 //
 
+import Foundation
+
 // MARK: - XMLParser
 
 public class XMLParser {
