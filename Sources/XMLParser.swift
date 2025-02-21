@@ -1,6 +1,6 @@
 //
 //  XMLParser.swift
-//  Common
+//  UselessCommon
 //
 //  Created by Manny Martins on 1/20/16.
 //  Copyright © 2016 Useless Robot. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  String.swift
-//  Common
+//  UselessCommon
 //
 //  Created by Manny Martins on 12/26/16.
 //  Copyright © 2016 Useless Robot. All rights reserved.

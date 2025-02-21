@@ -1,6 +1,6 @@
 //
 //  Dictionary.swift
-//  Common
+//  UselessCommon
 //
 //  Created by Manny Martins on 9/22/16.
 //  Copyright © 2016 Useless Robot. All rights reserved.

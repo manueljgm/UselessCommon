@@ -1,6 +1,6 @@
 //
 //  Clamp.swift
-//  Common
+//  UselessCommon
 //
 //  Created by Manny Martins on 11/18/15.
 //  Copyright © 2015 Useless Robot. All rights reserved.

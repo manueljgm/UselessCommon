@@ -1,6 +1,6 @@
 //
 //  SKTextureAtlas.swift
-//  Common
+//  UselessCommon
 //
 //  Created by Manny Martins on 12/14/15.
 //  Copyright © 2015 Useless Robot. All rights reserved.
